@@ -1,0 +1,36 @@
+import React from "react";
+import { testimonials } from "../constants";
+
+const Testimonial = () => {
+  return (
+    <div className="mt-20 tracking-wide">
+      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:m-20">
+        What people are saying
+      </h2>
+      <div className="flex flex-wrap justify-center">
+        {testimonials.map((testimonial, index) => (
+          <div key={index} className="w-full sm:w-1/2 px-4 py-2">
+            <div className="bg-neutral rounded-md p-6 text-md border border-neutral-800 font-thin">
+              <p>{testimonial.text}</p>
+              <div className="flex mt-7 items-start">
+                <img
+                  className="w-12 h-12 rounded-full"
+                  src={testimonial.image}
+                  alt="img"
+                />
+                <div className="ml-5 ">
+                  <h4>{testimonial.user}</h4>
+                  <span className="text-neutral-700 italic ">
+                    {testimonial.company}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Testimonial;
