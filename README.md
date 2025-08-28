@@ -1,4 +1,4 @@
-### Modern Landing Page with React + Tailwind CSS
+# Modern Landing Page with React + Tailwind CSS
 
 A fully responsive Landing Page Application built with React (Vite) and Tailwind CSS.
 This project is perfect for anyone who wants to learn modern frontend development while building a real-world landing page.
@@ -44,6 +44,7 @@ This project is not just a landing page – it’s a step-by-step learning journ
 
 ## Getting Started
 1. Clone the Repository
+git clone https://github.com/AroobaZamir/virtualR-react-tailwind-project.git
 
 cd modern-landing-page
 
@@ -79,4 +80,4 @@ Connect pricing section with payment integration (Stripe/PayPal) 💳.
 
 Feel free to fork this repo and submit a PR if you want to improve the design or add new features.
 
-# Arooba Zamir!!
+## Arooba Zamir👩‍💻
